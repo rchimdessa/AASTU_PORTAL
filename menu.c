@@ -1,4 +1,4 @@
-/menu
+//menu
 void menu(void)
 {
 	int choice;
