@@ -8,6 +8,7 @@ void search_item()
 	fflush(stdin);
 	gets(target);
 	target[0]=toupper(target[0]);
+	
 	#check for the existing of item
 	while (!feof(sfile) && found==0)
 	{
