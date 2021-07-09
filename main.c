@@ -10,7 +10,19 @@
 #define BKSP 8
 #define SPACE 32
 #define TAB 9
+void setcolor(int ForgC){
+	 WORD wColor;
+	HANDLE hStdOut=GetStdHandle(STD_OUTPUT_HANDLE);
+	CONSOLE_SCREEN_BUFFER_INFO csbi;
 
+	if(GetConsoleScreenBufferInfo(hStdOut,&csbi))
+	{
+		wColor=(csbi.wAttributes & 0xF0)+(ForgC & 0x0F);
+	//	SetConsoleTextAttributes(hStdOut,wColor);
+		SetConsoleTextAttribute(hStdOut,wColor);
+
+}
+}
 
 
 
