@@ -1,4 +1,4 @@
-
+#item added must be checked if it is there or not
 void edit_item()
 {
 	int index, valid;
@@ -24,6 +24,7 @@ void edit_item()
 		{
 			if(id==st.productid)
 			{
+				
 				
 				a=1;
 				printf("\n\t\xdb\xdb\xdb\xdb\xdb Record Found \xdb\xdb\xdb\xdb\xdb");
