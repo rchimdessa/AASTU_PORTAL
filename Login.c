@@ -18,9 +18,8 @@ int a=0,i=0;
 	    i++;
 	}
 	password[i]='\0';
-	//char code=pword;
+	
 	i=0;
-	//scanf("%s",&pword); 
 		if(strcmp(username,"user")==0 && strcmp(password,"pass")==0){
 	printf("  \n\n\n       WELCOME TO THE SUPERMARKET MANAGEMENT SYSTEM !! \n LOGIN IS SUCCESSFUL");
 	printf("\n\n SYSTEM IS LOADING. PLEASE WAIT... \n");
