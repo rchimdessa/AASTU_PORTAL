@@ -141,6 +141,7 @@ void add_item()
 				printf("\n Name contain invalid character. Please 'Enter' again");
 				getch();
 			
+
 				
 			}
 		}while(!valid);
