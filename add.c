@@ -109,6 +109,7 @@ void add_item()
 					printf("\n\tYou Cannot Enter the price limit [10-5000].Re-Enter.");
 				}
 			}while(st.price<10 || st.price>5000);
+		
 			
 				do
 			{
