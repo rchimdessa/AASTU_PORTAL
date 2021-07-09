@@ -7,13 +7,13 @@ void menu(void)
 	printf("\n\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb SuperMarket Management System \xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb\xdb");
 	printf("                                                                                          ");
 	printf("                                                                                          ");
-	printf("\n\t\tEnter [1] To Add Items");
-	printf("\n\t\tEnter [2] To Delete Items");
-	printf("\n\t\tEnter [3] To Search for Items");
-	printf("\n\t\tEnter [4] To View Inventories");
-	printf("\n\t\tEnter [5] To Edit Items");
-	printf("\n\t\tEnter [6] To Calculate Bill");
-	printf("\n\t\tEnter [7] To Exit!");	
+	printf("\n\t\t\xdb\xdb\xdb\ Enter [1] To Add Items  \xdb\xdb\xdb\");
+	printf("\n\t\t\xdb\xdb\xdb\ Enter [2] To Delete Items \xdb\xdb\xdb\");
+	printf("\n\t\t\xdb\xdb\xdb\ Enter [3] To Search for Items \xdb\xdb\xdb\");
+	printf("\n\t\t\xdb\xdb\xdb\ Enter [4] To View Inventories \xdb\xdb\xdb\");
+	printf("\n\t\t\xdb\xdb\xdb\ Enter [5] To Edit Items \xdb\xdb\xdb\");
+	printf("\n\t\t\xdb\xdb\xdb\ Enter [6] To Calculate Bill \xdb\xdb\xdb\");
+	printf("\n\t\t\xdb\xdb\xdb\ Enter [7] To Exit! \xdb\xdb\xdb\");	
 	
 	printf("\n\n\t\tEnter your choice[1-6]");
 	scanf("%i", &choice);
