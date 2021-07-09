@@ -22,7 +22,7 @@ int a=0,i=0;
 	i=0;
 	//scanf("%s",&pword); 
 		if(strcmp(username,"user")==0 && strcmp(password,"pass")==0){
-	printf("  \n\n\n       WELCOME TO THE SUPERMARKET MANAGEMENT SYSTEM !!!! \n LOGIN IS SUCCESSFUL");
+	printf("  \n\n\n       WELCOME TO THE SUPERMARKET MANAGEMENT SYSTEM !! \n LOGIN IS SUCCESSFUL");
 	printf("\n\n SYSTEM IS LOADING. PLEASE WAIT... \n");
     for(i=0; i<3; i++){
         printf(".");
